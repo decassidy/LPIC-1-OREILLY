@@ -2,11 +2,13 @@
 
 ################################
 # Author: Derrick Cassidy
-# Version: 1.0.0
+# Version: v1.0.0
 # Date: 2021-02-03
 # Description: Bash Sandbox
 # Usage: ./main.sh
 ################################
 
+hello_text="Hello World!"
+
 # Print text to the Terminal
-echo "Hello World!"
+echo ${hello_text}
